@@ -4,7 +4,7 @@ Sublime plugin with snippets for the [Google Closure Library](https://developers
 
 ## Install
 
-Install with [Package Control](http://wbond.net/sublime_packages/package_control)
+Install with [Package Control](http://wbond.net/sublime_packages/package_control). Search for: **Google Closure Library Snippets**.
 
 ## Getting started
 
