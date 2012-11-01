@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:Description}
+ *
+ * @enum {string}
+ */
+${2:my.app.EventType} = {
+  ${0:BEFORE_SHOW: 'page.beforeShow'}
+};
+    ]]></content>
+    <tabTrigger>clenum</tabTrigger>
+    <scope>source.js</scope>
+    <description>Google Closure Enum type</description>
+</snippet>

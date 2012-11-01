@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+goog.addSingletonGetter(${1:app.namespace.Class});
+]]></content>
+    <tabTrigger>clsingle</tabTrigger>
+    <scope>source.js</scope>
+    <description>Google Closure Add Singleton Getter</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+  var eventObj  = {
+    ${1:custom}: ${2:customVal},
+    type: app.View.home.EventType.ACTION_BUTTON
+  };
+  this.dispatchEvent(eventObj);
+]]></content>
+    <tabTrigger>clevdispatch</tabTrigger>
+    <scope>source.js</scope>
+    <description>Google Closure Events Dispatch event</description>
+</snippet>

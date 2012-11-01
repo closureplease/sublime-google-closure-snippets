@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+goog.events.listen(${1:[Object to listen]}, ${2:[Event type]}, ${3:[Callback function]}, false, this);
+]]></content>
+    <tabTrigger>clevlisten</tabTrigger>
+    <scope>source.js</scope>
+    <description>Google Closure Events Listen</description>
+</snippet>

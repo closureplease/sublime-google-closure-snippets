@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:Defines the type}
+ *
+ * @typedef {${2:{
+ *   timeout        :	(number|undefined),
+ *   validValues    :	(!Array.<string>|!Array.<number>|undefined),
+ *   restartRequired:	boolean,
+ *   callback       :	Function,
+ *   token          :	string,
+ *	 callbackTwo    :	Function(string, boolean): boolean
+ *   \} | !Object}}
+ */
+${3:my.app.TypeDef};
+$0
+]]></content>
+    <tabTrigger>cltypedef</tabTrigger>
+    <scope>source.js</scope>
+    <description>Google Closure deftype definiton</description>
+</snippet>

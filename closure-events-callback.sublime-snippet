@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * Triggers on ${1:[a nuclear explosion]}
+ * @param {goog.events.Event} e
+ * @private
+ */
+${2:app.namespace}.prototype.${3:_onNukeExplosion} = function(e) {
+  this.logger.info('$3() :: Init. ${4:customField:' + e.custom});
+  $0
+};
+]]></content>
+    <tabTrigger>clevcb</tabTrigger>
+    <scope>source.js</scope>
+    <description>Google Closure Event Callback function</description>
+</snippet>

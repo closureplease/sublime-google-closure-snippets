@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+goog.object.forEach(${1:object.to.iterate}, function(element, index, obj){
+	$0
+}, this);
+]]></content>
+    <tabTrigger>clobjeach</tabTrigger>
+    <scope>source.js</scope>
+    <description>Google Closure Object forEach</description>
+</snippet>

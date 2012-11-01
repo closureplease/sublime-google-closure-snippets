@@ -1,0 +1,42 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @fileoverview ${1:A typical Class}.
+ */
+
+goog.provide('${2:my.Class}');
+
+/**
+ * $1
+ *
+ * @constructor
+ * @extends {goog.events.EventTarget}
+ */
+$2 = function()
+{
+  goog.base(this);
+
+
+};
+goog.inherits($2, goog.events.EventTarget);
+
+/**
+ * @type {goog.debug.Logger}
+ * @protected
+ */
+$2.prototype.logger = goog.debug.Logger.getLogger('$2');
+
+/**
+ *
+ */
+$2.prototype.show = function()
+{
+  this.logger.info('show() :: initializing...');
+  $0
+};
+
+    ]]></content>
+    <tabTrigger>clclassev</tabTrigger>
+    <scope>source.js</scope>
+    <description>Google Closure Class initialize</description>
+</snippet>

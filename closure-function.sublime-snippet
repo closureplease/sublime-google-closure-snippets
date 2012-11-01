@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my.app.Class}.prototype.${2:methodName} = function() {
+	this.logger.info('$2() :: Init.');
+	$0
+};
+
+    ]]></content>
+    <tabTrigger>clfn</tabTrigger>
+    <scope>source.js</scope>
+    <description>Google Closure Function Default</description>
+</snippet>
