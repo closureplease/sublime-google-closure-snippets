@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1:this.eventEmittingObject}.setParentEventTarget(${2:this});
+]]></content>
+    <tabTrigger>clevparent</tabTrigger>
+    <scope>source.js</scope>
+    <description>Google Closure Events Set Parent Event Target</description>
+</snippet>

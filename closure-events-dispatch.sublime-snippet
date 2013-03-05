@@ -1,10 +1,7 @@
 <snippet>
   <content><![CDATA[
-  var eventObj  = {
-    ${1:custom}: ${2:customVal},
-    type: app.View.home.EventType.ACTION_BUTTON
-  };
-  this.dispatchEvent(eventObj);
+var event = new goog.events.Event(${1:'type'}, ${2:{ custom: customVal }});
+goog.events.dispatchEvent(eventTarget, event);
 ]]></content>
     <tabTrigger>clevdispatch</tabTrigger>
     <scope>source.js</scope>
