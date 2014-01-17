@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-goog.array.forEach(${1:array.to.iterate}, function(element, index, arr){
+goog.array.forEach(${1:array.to.iterate}, function(element, index, arr) {
 	$0
 }, this);
 
