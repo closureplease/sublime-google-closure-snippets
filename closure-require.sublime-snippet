@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+goog.require('${1:classname}');
+
+]]></content>
+  <tabTrigger>clreq</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

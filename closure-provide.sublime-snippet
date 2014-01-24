@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+goog.provide('${1:classname}');
+
+]]></content>
+  <tabTrigger>clprov</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
