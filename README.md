@@ -23,6 +23,8 @@ The snippets are namespaced based on functionality, at most you'll have to type 
   <tr><td><strong>clsingle</strong>      </td><td>Generic   </td><td>Singleton declaration (<code>goog.addSingletonGetter()</code>)</td></tr>
   <tr><td><strong>cltypedef</strong>     </td><td>Generic   </td><td>A very verbose type definition with weird annotation cases</td></tr>
   <tr><td><strong>clenum</strong>        </td><td>Generic   </td><td>Enum declaration</td></tr>
+  <tr><td><strong>clprov</strong>        </td><td>Generic   </td><td><code>goog.provide();</code></td></tr>
+  <tr><td><strong>clreq</strong>         </td><td>Generic   </td><td><code>goog.require();</code></td></tr>
   <tr><td><strong>clclassev</strong>     </td><td>New files</td><td>New class boilerplate with events inheritance</td></tr>
   <tr><td><strong>clobjeach</strong>     </td><td>Objects  </td><td><code>goog.object.forEach()</code></td></tr>
 </table>
